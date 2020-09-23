@@ -177,10 +177,10 @@ Cadastra uma nova viagem no sistema
 
 ```json
 {
-    "dt_inicio": "20/03/2020",
-    "dt_fim": "20/03/2020",
-    "classificacao": 1,
-    "nota": 5
+    "dt_inicio": "2020-03-23",
+    "dt_fim": "2020-03-23",
+    "classificacao": 2,
+    "nota": "5.00"
 }
 ```
 ### GET Lista Viagem
@@ -196,10 +196,10 @@ Lista todas as viagens no sistema
 [ 
     {
         "id": 1,
-        "dt_inicio": "20/03/2020",
-        "dt_fim": "20/03/2020",
-        "classificacao": 1,
-        "nota": 5
+        "dt_inicio": "2020-03-23",
+        "dt_fim": "2020-03-23",
+        "classificacao": 2,
+        "nota": "5.00"
     }
 ]
 ```
@@ -215,10 +215,10 @@ Busca uma viagem no sistema
 ```json
 {
     "id": 1,
-    "dt_inicio": "20/03/2020",
-    "dt_fim": "20/03/2020",
-    "classificacao": 1,
-    "nota": 5
+    "dt_inicio": "2020-03-23",
+    "dt_fim": "2020-03-23",
+    "classificacao": 2,
+    "nota": "5.00"
 }
 ```
 ### PUT Atualiza viagem
@@ -232,10 +232,10 @@ Modifica/atualiza uma viagem no sistema
 
 ```json
 {
-    "dt_inicio": "20/03/2021",
-    "dt_fim": "20/03/2021",
+    "dt_inicio": "2020-03-24",
+    "dt_fim": "2020-03-24",
     "classificacao": 2,
-    "nota": 5
+    "nota": "5.00"
 }
 ```
 ### DELETE Apaga viagem

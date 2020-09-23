@@ -23,7 +23,7 @@ Queremos mostrar no nosso aplicativo as últimas viagens do usuário logado. Tam
 Sabendo disto o nosso pessoal de mobile precisa de uma API no backend para que possa colocar estas funcionalidades no nosso aplicativo.
 
 Nesta API precisamos:
-- Antenticação de usuário no padrão JWT (Não precisa dos endpoints para criar o usuário, mas somente o endpoint que recebe o email e senha do usuário e já faça a sua autenticação na API)
+- Autenticação de usuário no padrão JWT (Não precisa dos endpoints para criar o usuário, mas somente o endpoint que recebe o email e senha do usuário e já faça a sua autenticação na API)
 - Endpoint para listar as últimas viagens do usuário logado
 - Endpoint para enviar a classificação da viagem e a sua nota
 
